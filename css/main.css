@@ -16,7 +16,8 @@ header {
   font-weight: bold;
   color: white;
   justify-content: space-between;
-  margin:
+  margin: 0;
+  border: 2px solid #a63f38;
 }
 
 img {
@@ -31,7 +32,17 @@ ul {
 
 li {
   list-style-type: none;
+  border: 2px solid #a63f38;
+  margin: 0;
+}
+
+a {
+  font-size: 1.125rem;
   color: white;
   text-decoration: none;
+}
 
+a:hover {
+  background-color: #a63f38;
+  color: white;
 }
