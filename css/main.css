@@ -16,6 +16,7 @@ header {
   font-weight: bold;
   color: white;
   justify-content: space-between;
+  margin:
 }
 
 img {
@@ -25,9 +26,12 @@ img {
 ul {
   display: flex;
   justify-content: space-between;
+  background-color: #d05c2e;
 }
 
 li {
-  background-color: #d05c2e;
   list-style-type: none;
+  color: white;
+  text-decoration: none;
+
 }
