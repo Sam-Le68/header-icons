@@ -1,4 +1,23 @@
 html {
   font-family: Merriweather, serif;
+  line-height: 1.5;
+  background-color: #fff;
+  box-sizing: border-box;
+}
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  display: flex;
+  background-color: #d05c2e;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  justify-content: space-between;
+}
+
+img {
+  width: 40px;
 }
