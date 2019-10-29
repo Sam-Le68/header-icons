@@ -21,3 +21,13 @@ header {
 img {
   width: 40px;
 }
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  background-color: #d05c2e;
+  list-style-type: none;
+}
