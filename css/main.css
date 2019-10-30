@@ -14,7 +14,7 @@ body {
 }
 
 header .title {
-  display: block;
+  display: flex;
   background-color: #d05c2e;
   font-size: 2rem;
   font-weight: bold;
@@ -39,6 +39,7 @@ header .list {
   background-color: #d05c2e;
   flex-wrap: nowrap;
   align-items: center;
+  flex-direction: row;
 }
 
 header ul {
