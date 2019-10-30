@@ -33,7 +33,7 @@ img {
   width: 40px;
 }
 
-header .title  {
+header .title {
   display: flex;
   justify-content: space-around;
   background-color: #d05c2e;
