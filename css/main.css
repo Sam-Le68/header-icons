@@ -34,14 +34,14 @@ img {
 }
 
 header .list {
-  display: flex;
-  justify-content: space-around;
   background-color: #d05c2e;
   flex-wrap: nowrap;
   align-items: center;
 }
 
 header ul {
+  display: flex;
+  justify-content: space-around;
   margin: 0;
   padding: 0;
   flex-wrap: nowrap;
@@ -51,7 +51,6 @@ li {
   display: flex;
   list-style-type: none;
   border: 2px solid #a63f38;
-  margin: 0;
   border-top: 0;
   flex-basis: 33.3333%;
   width: 33.3333%;
@@ -62,7 +61,7 @@ header a {
   font-size: 1.125rem;
   color: white;
   text-decoration: none;
-  padding: 0;
+  padding: .5em 0;
 }
 
 li:hover {
