@@ -17,6 +17,7 @@ header {
   color: white;
   justify-content: space-between;
   margin: 0;
+  padding: 0;
   border: 2px solid #a63f38;
 }
 
@@ -26,20 +27,30 @@ img {
 
 ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: #d05c2e;
+  margin: 0;
+  padding: 0;
 }
 
 li {
   list-style-type: none;
   border: 2px solid #a63f38;
   margin: 0;
+  border-top: 0;
+  flex-basis: 33.33333333%;
 }
 
 a {
   font-size: 1.125rem;
   color: white;
   text-decoration: none;
+}
+
+li:hover {
+  background-color: #a63f38;
+  border: 2px solid #a63f38;
+  border-top: 0;
 }
 
 a:hover {
