@@ -39,7 +39,6 @@ header .list {
   background-color: #d05c2e;
   flex-wrap: nowrap;
   align-items: center;
-  flex-direction: row;
 }
 
 header ul {
@@ -49,17 +48,22 @@ header ul {
 }
 
 li {
+  display: flex;
   list-style-type: none;
   border: 2px solid #a63f38;
   margin: 0;
   border-top: 0;
   flex-basis: 33.3333%;
+  width: 33.3333%;
+  flex-direction: row;
 }
 
 header a {
   font-size: 1.125rem;
   color: white;
   text-decoration: none;
+  padding: .5em 0;
+  text-align: center;
 }
 
 li:hover {
