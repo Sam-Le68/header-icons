@@ -13,8 +13,8 @@ body {
   margin: 0;
 }
 
-header nav:first-child {
-  display: flex;
+header .title {
+  display: block;
   background-color: #d05c2e;
   font-size: 2rem;
   font-weight: bold;
@@ -33,7 +33,7 @@ img {
   width: 40px;
 }
 
-header .title {
+header .list {
   display: flex;
   justify-content: space-around;
   background-color: #d05c2e;
