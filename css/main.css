@@ -9,6 +9,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 header {
   display: flex;
   background-color: #d05c2e;
@@ -21,16 +25,25 @@ header {
   border: 2px solid #a63f38;
 }
 
+h1 {
+  margin: 0;
+}
+
 img {
   width: 40px;
 }
 
-ul {
+header nav {
   display: flex;
   justify-content: space-around;
   background-color: #d05c2e;
+  flex-wrap: nowrap;
+}
+
+header ul {
   margin: 0;
   padding: 0;
+  flex-wrap: nowrap;
 }
 
 li {
@@ -38,10 +51,10 @@ li {
   border: 2px solid #a63f38;
   margin: 0;
   border-top: 0;
-  flex-basis: 33.33333333%;
+  flex-basis: 33.3333%;
 }
 
-a {
+header a {
   font-size: 1.125rem;
   color: white;
   text-decoration: none;
